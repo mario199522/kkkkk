@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		PRACTICA
+	</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+
+	<center>	    	
+		<h2 class="text-success">Buscar música por artista</h2>
+	</center>
+
+    <div class="form-group row">
+    	<div class="col-sm-12">
+    		<input type="text" class="form-control" id="idbuscar" placeholder="">
+    	</div>
+    	
+			   <p id="loading"></p>
+
+	   </div>
+
+	<table class="table table-bordered table-striped" >
+	
+      <thead class="table-danger">
+        <tr>
+          <th scope="col"><center>Nombre</center></th>
+          <th scope="col"><center>Título</center></th>
+          <th scope="col"><center>Imagen</center></th>
+          <th scope="col"><center>Músicas</center></th>
+          
+        </tr>
+      </thead>
+      <tbody id="dato">
+
+       
+      </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/funcion.js"></script>
+
+</body>
+</html>
